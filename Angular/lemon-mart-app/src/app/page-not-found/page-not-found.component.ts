@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-page-not-found',
   template: `
     <p>
-      page-not-found works!
+      O link que você tentou acessar não existe. <a routerLink="/home">Clique aqui</a> para retornar para a página principal!
     </p>
   `,
   styles: [
