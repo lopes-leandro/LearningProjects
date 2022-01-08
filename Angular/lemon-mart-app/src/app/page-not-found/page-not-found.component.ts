@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-pege-not-found',
+  selector: 'app-page-not-found',
   template: `
     <p>
-      pege-not-found works!
+      page-not-found works!
     </p>
   `,
   styles: [
   ]
 })
-export class PegeNotFoundComponent implements OnInit {
+export class PageNotFoundComponent implements OnInit {
 
   constructor() { }
 

@@ -9,13 +9,13 @@ import { ManagerModule } from './manager/manager.module';
 import { InventoryModule } from './inventory/inventory.module';
 import { PosModule } from './pos/pos.module';
 import { HomeComponent } from './home/home.component';
-import { PegeNotFoundComponent } from './pege-not-found/pege-not-found.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    PegeNotFoundComponent
+    PageNotFoundComponent,
   ],
   imports: [
     BrowserModule,

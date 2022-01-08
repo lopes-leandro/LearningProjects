@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PegeNotFoundComponent } from './pege-not-found.component';
+import { PageNotFoundComponent } from './page-not-found.component';
 
-describe('PegeNotFoundComponent', () => {
-  let component: PegeNotFoundComponent;
-  let fixture: ComponentFixture<PegeNotFoundComponent>;
+describe('PageNotFoundComponent', () => {
+  let component: PageNotFoundComponent;
+  let fixture: ComponentFixture<PageNotFoundComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PegeNotFoundComponent ]
+      declarations: [ PageNotFoundComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PegeNotFoundComponent);
+    fixture = TestBed.createComponent(PageNotFoundComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
