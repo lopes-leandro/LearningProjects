@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
       <button mat-icon-button>
         <mat-icon>menu</mat-icon>      
       </button>
-      <mat-icon svgIcon="lemon"></mat-icon>
+      <!-- <mat-icon svgIcon="lemon"></mat-icon> -->
       <a mat-button routerLink="/home"><h1>{{title}}</h1></a> 
       <span class="flex-spacer"></span>
       <button mat-icon-button>
