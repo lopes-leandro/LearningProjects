@@ -6,7 +6,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
-import { ManagerModule } from './manager/manager.module';
 import { InventoryModule } from './inventory/inventory.module';
 import { PosModule } from './pos/pos.module';
 import { HomeComponent } from './home/home.component';
@@ -26,7 +25,6 @@ import { MatIconRegistry } from '@angular/material/icon';
     BrowserAnimationsModule,
     FlexLayoutModule,
     MaterialModule,
-    ManagerModule,
     InventoryModule,
     PosModule
   ],
