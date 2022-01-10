@@ -4,9 +4,9 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-manager',
   template: `
     <mat-toolbar color="accent">
-      <a routerLink="/manager/home" routerLinkActive="active-link">Painel do Gerente</a>
-      <a routerLink="/manager/users" routerLinkActive="active-link">Gerenciar Usuários</a>
-      <a routerLink="/manager/receipts" routerLinkActive="active-link">Consulta de Recibos</a>
+      <a mat-button routerLink="/manager/home" routerLinkActive="active-link">Painel do Gerente</a>
+      <a mat-button routerLink="/manager/users" routerLinkActive="active-link">Gerenciar Usuários</a>
+      <a mat-button routerLink="/manager/receipts" routerLinkActive="active-link">Consulta de Recibos</a>
     </mat-toolbar>
     <router-outlet></router-outlet>
   `,
