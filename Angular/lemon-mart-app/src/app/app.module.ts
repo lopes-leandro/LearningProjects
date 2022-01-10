@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 import { InventoryModule } from './inventory/inventory.module';
-import { PosModule } from './pos/pos.module';
 import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { MatIconRegistry } from '@angular/material/icon';
@@ -24,7 +23,6 @@ import { MatIconRegistry } from '@angular/material/icon';
     BrowserAnimationsModule,
     MaterialModule,
     InventoryModule,
-    PosModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
