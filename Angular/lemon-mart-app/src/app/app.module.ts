@@ -11,6 +11,7 @@ import { PosModule } from './pos/pos.module';
 import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { MatIconRegistry } from '@angular/material/icon';
+import { UserModule } from './user/user.module';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { MatIconRegistry } from '@angular/material/icon';
     FlexLayoutModule,
     MaterialModule,
     InventoryModule,
-    PosModule
+    PosModule,
+    UserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
