@@ -5,10 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
-import { InventoryModule } from './inventory/inventory.module';
 import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { MatIconRegistry } from '@angular/material/icon';
+import { FlexLayoutModule } from "@angular/flex-layout";
 
 @NgModule({
   declarations: [
@@ -22,7 +22,7 @@ import { MatIconRegistry } from '@angular/material/icon';
     HttpClientModule,
     BrowserAnimationsModule,
     MaterialModule,
-    InventoryModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
