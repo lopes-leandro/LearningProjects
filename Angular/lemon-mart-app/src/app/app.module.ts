@@ -9,6 +9,8 @@ import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { MatIconRegistry } from '@angular/material/icon';
 import { FlexLayoutModule } from "@angular/flex-layout";
+import { AuthService } from './auth/auth.service';
+import { AuthInMemoryService } from './auth/auth-in-memory.service';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,11 @@ import { FlexLayoutModule } from "@angular/flex-layout";
     MaterialModule,
     FlexLayoutModule
   ],
-  providers: [],
+  providers: [
+    {
+      provide: AuthService, useClass: AuthInMemoryService
+    }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {
